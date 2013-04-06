@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>concat from local</title>
+		<script src="http://localhost:2013/c/=/open/store/v3/1.js,/ac/qzfl/release/qzfl_for_qzone.js,/open/store/v3/2.js,/open/store/v3/3.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<script>
+			var c = "";
+			c += window.FILE_1 + "<br />" + window.FILE_2 + "<br />" + window.FILE_3;
+			var p = document.createElement('p');
+			p.innerHTML = c;
+			document.body.appendChild(p);
+		</script>
+	</body>
+</html>
